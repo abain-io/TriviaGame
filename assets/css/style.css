@@ -15,6 +15,7 @@ body {
   padding: 5% 0;
   margin: 5% auto;
   background-color: #fff17a;
+  font-size: 20px;
 }
 
 #sub-wrapper {
@@ -24,7 +25,7 @@ body {
 
 button {
   display: block;
-  width: 400px;
+  width: 400px; 
   height: 100px;
   margin: 10px auto 0;
   font-size: 42px;
@@ -38,7 +39,7 @@ h1 {
   font-family: Geo, sans-serif;
   font-size: 6.5em;
   font-weight: bold;
-  color: blue;
+  color: lightsalmon;
 }
 
 h2 {
@@ -53,15 +54,23 @@ h3 {
 
 #start {
   margin-top: 10%;
-  background: pink;
-  border: 2px solid blue;
+  background:light;
+  border: 2px solid lightcoral;
+  margin-bottom: 80px;
 }
 
 #quiz-area h2 {
   margin-top: 50px;
+  
 }
 
 button:hover {
-  background: pink;
+  background: lightsalmon;
   border: 2px solid blue;
+}
+
+#questions {
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: indianred;
 }
